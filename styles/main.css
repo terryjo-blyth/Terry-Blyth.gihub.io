@@ -105,3 +105,28 @@ a:active {
     border:5px solid #006BB6;
 }
 
+.undertitle {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.question {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.speech { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
