@@ -105,11 +105,7 @@ a:active {
     border:5px solid #006BB6;
 }
 
-.test3 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
 
-}
 
 .question {
     text-align: center;
@@ -118,15 +114,17 @@ a:active {
 
 }
 
-.test2 { 
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+.test3 {
     text-align: center;
-    margin-top: 5%;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.test2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 
 
