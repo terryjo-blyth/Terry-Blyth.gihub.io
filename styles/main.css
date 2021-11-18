@@ -61,7 +61,7 @@ a:active {
 
 .body {
     width: 100%;
-    height:100%;
+    height:200%;
     background-color: #BEC0C2;
     margin-left: auto;
     margin-right: auto;
@@ -98,7 +98,7 @@ a:active {
 
 .me {
     width: 300px;
-    height: 399px;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -111,19 +111,27 @@ a:active {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    font-size: 15px;
 
 }
 
-.test3 {
+.intro {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
-.test2 {
+.speech {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.nyk {
+    width: 256px;
+    height: 360;
+    border: 0;
 }
 
 
