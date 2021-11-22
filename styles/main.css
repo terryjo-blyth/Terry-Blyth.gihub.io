@@ -14,7 +14,7 @@ li {
   
 li a {
     display: block;
-    color: white;
+    color: #006BB6;
     padding: 30px 10px;
     text-decoration: none;
     font-size: 15px;
@@ -25,9 +25,9 @@ li a {
   
 
 .blogname {
-    color: #006BB6;
+    color: #F58426;
     font-family: 'Graduate', cursive;
-    background-color: black;
+    background-color: #000000;
     font-size: 40px;
     
 }
@@ -75,7 +75,7 @@ a:active {
 }
 
 .footer {
-    background-color: black;
+    background-color: #000000;
     color: #F58426;
     text-align: center;
     font-family: 'Graduate', cursive;
@@ -119,6 +119,7 @@ a:active {
     font-family: 'Montserrat', sans-serif;
     margin-left: 40px;
     margin-right: 40px;
+    color: #000000;
 }
 
 .body1 {
@@ -175,6 +176,7 @@ a:active {
 .intro {
     text-align: center;
     font-family:'Graduate', cursive;
+    color: #000000;
 }
 
 
