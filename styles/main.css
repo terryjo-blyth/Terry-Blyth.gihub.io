@@ -150,10 +150,10 @@ a:active {
 }
 
 .undertitle {
-    font-size: 15px;
+    font-size: 25px;
     font-family:'Graduate', cursive;
     text-align: center;
-    color: #F58426;
+    color: #000000;
 }
 
 .images {
@@ -178,6 +178,54 @@ a:active {
     font-family:'Graduate', cursive;
     color: #000000;
 }
+
+.card {
+    border:5px solid #006BB6;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: inline-table;
+}
+
+#card-title1 {
+    font-size: 20px;
+    font-family:'Graduate', cursive;
+    text-align: center;
+}
+
+#card-text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#box1read {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.thedom {
+    width: 100%;
+}
+
+.button {
+    background-color: #006BB6;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    font-family:'Graduate', cursive;
+  }
+
+.button:hover {
+    color: #F58426;
+}
+
 
 
 
