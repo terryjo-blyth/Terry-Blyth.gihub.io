@@ -240,15 +240,17 @@ a:active {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     display:block;
     font-family:'Graduate', cursive;
+    
   }
 
 .button:hover {
     color: #F58426;
+    text-decoration: none;
 }
 
 
