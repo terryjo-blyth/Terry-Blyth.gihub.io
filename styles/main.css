@@ -181,8 +181,33 @@ a:active {
 
 .card {
     border:5px solid #006BB6;
-    margin-left: 100px;
-    margin-top: 100px;
+    float: left;
+    margin-left: 40px;
+    
+    
+    
+}
+
+
+.card2 {
+    border:5px solid #006BB6;
+    display: inline-table;
+    margin-left: 171px;
+    
+ 
+    
+    
+    
+    
+    
+}
+
+.card3 {
+    border:5px solid #006BB6;
+    float: right;
+    margin-right: 40px;
+    
+    
     display: inline-table;
 }
 
@@ -225,6 +250,7 @@ a:active {
 .button:hover {
     color: #F58426;
 }
+
 
 
 
