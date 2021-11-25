@@ -182,7 +182,7 @@ a:active {
 .card {
     border:5px solid #006BB6;
     float: left;
-    margin-left: 40px;
+    margin-left: 80px;
     
     
     
@@ -192,7 +192,7 @@ a:active {
 .card2 {
     border:5px solid #006BB6;
     display: inline-table;
-    margin-left: 171px;
+    margin-left: 140px;
     
  
     
@@ -205,7 +205,7 @@ a:active {
 .card3 {
     border:5px solid #006BB6;
     float: right;
-    margin-right: 40px;
+    margin-right: 80px;
     
     
     display: inline-table;
