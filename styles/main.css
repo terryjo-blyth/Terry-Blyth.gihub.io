@@ -201,6 +201,11 @@ a:active {
     
     
 }
+.undertitle1 {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .card3 {
     border:5px solid #006BB6;
@@ -251,6 +256,12 @@ a:active {
 .button:hover {
     color: #F58426;
     text-decoration: none;
+}
+
+.domtree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
