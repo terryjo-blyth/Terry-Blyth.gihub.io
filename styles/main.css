@@ -120,6 +120,7 @@ a:active {
     margin-left: 40px;
     margin-right: 40px;
     color: #000000;
+    font-size: 14px;
 }
 
 .body1 {
@@ -150,7 +151,7 @@ a:active {
 }
 
 .undertitle {
-    font-size: 15px;
+    font-size: 14px;
     font-family:'Graduate', cursive;
     text-align: center;
     color: #000000;
@@ -262,6 +263,16 @@ a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.dom {
+    border: 2px solid #006BB6;
+    display: inline-block;
+}
+
+.domdiv {
+    display: flex;
+    justify-content: center;
 }
 
 
