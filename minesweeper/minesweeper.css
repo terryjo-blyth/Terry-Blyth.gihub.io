@@ -60,3 +60,32 @@ div.hidden:hover {
 div.marked, div.marked:hover {
   background: no-repeat center/60% url("images/mark.svg") #0072CE;
 }
+
+.returnHome {
+  background-color: #F58426;
+  
+  border: none;
+  
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  margin-top: 5em;
+  border-radius: 12px;
+}
+
+.returnbutton {
+  font-family: 'Graduate', cursive;
+  font-size: 16px;
+}
+
+.returnbutton:hover {
+  color: #0072CE;
+  
+}
+
+.returnbutton:visited {
+  font-family: 'Graduate', cursive;
+  color: black;
+}
