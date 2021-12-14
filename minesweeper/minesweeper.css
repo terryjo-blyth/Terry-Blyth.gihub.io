@@ -65,7 +65,7 @@ div.marked, div.marked:hover {
   background-color: #F58426;
   
   border: none;
-  
+ 
   padding: 10px 24px;
   text-align: center;
   text-decoration: none;
@@ -88,4 +88,8 @@ div.marked, div.marked:hover {
 .returnbutton:visited {
   font-family: 'Graduate', cursive;
   color: black;
+}
+
+.buttonDiv {
+  display: inline-block;
 }
