@@ -1,293 +1,229 @@
 body {
-    background-color:  #006BB6;
+    background-color: #BEC0C2;
+    height: auto;
+    margin-bottom: 0em;
+    padding-bottom: 20em;
 }
 
-ul {
-    margin: 0;
-    overflow: hidden;
-    background-color: black;
- }
-  
-li {
-    float: right;
-}
-  
-li a {
-    display: block;
-    color: #006BB6;
-    padding: 30px 5px;
-    text-decoration: none;
-    font-size: 15px;
-    margin-right: 40px;
+.navbar-brand {
     font-family: 'Graduate', cursive;
+    font-size: 25px;
     font-weight: bold;
-}
-  
-
-.blogname {
-    color: #F58426;
-    font-family: 'Graduate', cursive;
-    background-color: #000000;
-    font-size: 40px;
     
 }
 
 .orange {
     color: #F58426;
+    font-weight: bold;
 }
 
-a:link {
-    color: #006BB6;
-}
-
-a:visited {
-    color: #006BB6;
-}
-
-a:hover {
-    color: #F58426;
-}
-
-a:active {
-    color: #F58426;
-}
-
-.body {
-    width: 100%;
-    height: 110%;
-    background-color: #BEC0C2;
-    margin-left: auto;
-    margin-right: auto;
+.nav-link {
+    font-family: 'Graduate', cursive;
+    font-size: 17px;
+   font-weight: bold;
     
-    margin-bottom: auto;
+}
+
+#navColor {
+    color: #006BB6;
+}
+
+#navColor:hover {
+    color: #F58426;
+}
+
+.card {
+    background: #000;
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+}
+
+.card-title {
+    font-family: 'Graduate', cursive;
+    color: #006BB6;
+    
+
+}
+
+.card-text {
+    font-family: 'Graduate', cursive;
+    color: #F58426;
 }
 
 .title {
-    color: #006BB6;
     text-align: center;
+    margin-top: 1em;
     font-family: 'Graduate', cursive;
-    font-size: 30px;
-    padding-top: 2%;
-    
-    
-}
-
-.paragraph {
-    color: black;
-}
-
-.footer {
-    background-color: #000000;
     color: #F58426;
-    text-align: center;
-    font-family: 'Graduate', cursive;
-    font-size: 20px;
-
-}
-
-.paragraph {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    text-align: center;
-}
-
-.me {
-    width: 50%;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    border:5px solid #006BB6;
-}
-
-
-
-.question {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 0 #006BB6, 
+    2px 2px 0 #006BB6;
     font-weight: bold;
-    font-size: 15px;
-
-}
-
-.header2 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    
-}
-
-.paragraph {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
-    color: #000000;
-    font-size: 14px;
-}
-
-.body1 {
-    width: 100%;
-    height:100%;
-    background-color: #BEC0C2;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0em;
-    padding-bottom: 40em;
-}
-
-.bodyid {
-    width: 100%;
-    height:200%;
-    background-color: #BEC0C2;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.question1 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 50px;
-    margin-left: 25px;
-    margin-top: 25px;
-
 }
 
 .undertitle {
-    font-size: 14px;
-    font-family:'Graduate', cursive;
     text-align: center;
-    color: #000000;
+    font-family: 'Graduate', cursive;
+    color: #006BB6;
+    font-weight: bold;
 }
 
-.images {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
 
-.imagesrow::after {
-    content: "";
-    clear: both;
-    display: table;
+.me {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+  height: auto;
 }
 
 .caption {
     text-align: center;
-    font-family:'Graduate', cursive;
+    margin-bottom: 6em;
 }
 
-.intro {
-    text-align: center;
-    font-family:'Graduate', cursive;
-    color: #000000;
+.footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+    
+    
 }
 
-.card {
-    border:5px solid #006BB6;
+.header {
+    font-family: 'Graduate', cursive;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
     float: left;
-    margin-left: 80px;
-    
-    
-    
-}
-
-
-.card2 {
-    border:5px solid #006BB6;
-    display: inline-table;
-    margin-left: 140px;
-    
- 
-    
-    
-    
-    
-    
-}
-.undertitle1 {
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .aside {
+    background-color: black;
+    padding: 15px;
+    color:#F58426;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: black;
+    color:#F58426;
+    text-align: center;
     font-size: 15px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.card3 {
-    border:5px solid #006BB6;
-    float: right;
-    margin-right: 80px;
-    
-    
-    display: inline-table;
-}
-
-#card-title1 {
-    font-size: 20px;
-    font-family:'Graduate', cursive;
-    text-align: center;
-}
-
-#card-text {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-#box1read {
-    text-align: justify;
-    font-size: 20px;
-}
-
-.thedom {
+    padding: 15px;
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
     width: 100%;
-}
-
-.button {
-    background-color: #006BB6;
-    border: none;
-    color: #000000;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-    font-family:'Graduate', cursive;
-    
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
   }
 
-.button:hover {
-    color: #F58426;
-    text-decoration: none;
-}
+  .link {
+    color: #006BB6;
+    font-family: 'Graduate', cursive;
+  }
 
-.domtree {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+  h2 {
+    font-family: 'Graduate', cursive;
+    text-align: center;
+  }
 
-.dom {
-    border: 2px solid #006BB6;
-    display: inline-block;
-}
+  h5 {
+    color: #006BB6;
+    font-family: 'Graduate', cursive;
+    text-align: center;
+    font-size: 15px;
+  }
 
-.domdiv {
+  .paragraph {
+    text-align: center;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .domdiv {
     display: flex;
     justify-content: center;
 }
-
-div, iframe {
-   margin: auto;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
-    
-}
-
-
-
+ 
 
 
